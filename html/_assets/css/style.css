@@ -1,0 +1,106 @@
+body {
+	background: #f3f3f3;
+}
+
+header h1 {
+	margin: 0;
+	text-align: center;
+}
+
+#student--table {
+	border-radius: 40px;
+	background: #ffffff;
+	padding: 2rem 3rem;
+}
+
+#student--table td {
+	padding: 1.8rem 5px;
+}
+
+#student--table .student--profile td {
+	padding: 15px 5px;	
+}
+
+.student--profile tr {
+	border-bottom: 0;
+}
+
+table.highlight>tbody>tr:hover {
+	background: rgba(121, 204, 240, 0.23);
+}
+
+.pagination {
+	width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination li.active {
+	background: none;
+}
+
+.pagination li a,
+.pagination li.active a {
+	color: #000000;
+}
+
+.pagination li i  {
+	margin: 0;
+}
+
+#student--activity__info {
+	background: rgba(252, 191, 6, 0.5);
+	border-radius: 64px;
+	padding: 1rem 2rem;
+}
+
+.tabs {
+	background: none;
+	margin-right: 0.5rem;
+}
+
+.tabs .tab {
+	margin-right: 0.5rem;
+
+}
+.tabs a {
+	border-radius: 48px;
+	padding: 1rem;
+	background: #ffffff;
+	color: #4a4a4a;
+}
+
+
+.tabs .tab a:hover, .tabs .tab a.active,
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+	background-color: #79ccf0;
+	color: #ffffff;
+}
+
+.tabs .indicator {
+	display: none;
+}
+
+.tabs--content .row .col {
+	background: #ffffff;
+	border-radius: 40px;
+	padding: 1.6rem;
+}
+
+.tabs--content .row .col:first-child {
+	margin-right: 1rem;
+}
+
+.page-footer {
+	background: #ffffff;
+	color: #4a4a4a;
+}
+
+.page-footer ul {
+ 	display: flex;
+    flex-direction: column;
+ }
+
+.page-footer .footer-copyright {
+	background: #4b4798;
+}

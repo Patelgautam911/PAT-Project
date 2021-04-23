@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PAT - Pupil Activity Tracker</title>
+
+	<!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="_assets/css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	  <link rel="stylesheet" href="_assets/css/style.css">
+
+</head>
+
+<body id="student--listing">
+	<div class="container">
+		<header>
+			<h1><img src="_assets/images/tracker-pat-logoversion-1-shape-4.svg" alt="PAT" /></h1>
+		</header>
+
+		<section class="content">
+			<div class="row valign-wrapper">
+		      <div class="col s6">
+		      	<h2>Class</h2>
+		      	<p>Primary A: 17 students</p>
+		      </div>
+		      <div class="col s6 right-align">
+		      	<a class="waves-effect waves-light btn-small"><i class="material-icons left dp48">add</i> Add Student</a>
+		      </div>
+		    </div>
+
+		    <div class="row" id="student--table">
+		    	<div class="col s12">
+		      	<table class="highlight">
+		        <thead>
+		          <tr>
+		              <th>Student</th>
+		              <th>Total Steps</th>
+		              <th>Total Meters</th>
+		              <th>Total Jumps</th>
+		              <th>Pat Points</th>
+		          </tr>
+		        </thead>
+
+		        <tbody>
+		          <tr>
+		            <td><i class="material-icons left dp48">account_circle</i> Liam Little</td>
+		            <td>1023</td>
+		            <td>1023</td>
+		            <td>1023</td>
+		            <td>64</td>
+		          </tr>
+		          <tr>
+		          	<td colspan="5">
+		          		<div class="student--profile">
+		          			<table width="100%">
+		          				<tr>
+		          					<td colspan="2">
+		          						Test
+						          	</td>
+						          	<td colspan="3">
+						          		<div class="row">
+									        <div class="input-field col s6">
+									          <input value="Liam" id="first_name1" type="text" class="validate">
+				      						  <label class="active" for="first_name1">Liam Little</label>
+									        </div>
+									        <div class="input-field col s6">
+									        	<strong>ID: 123PAT456</strong>
+									        </div>
+									    </div>
+
+									    <div class="row">
+									    	<div class="input-field col s6">
+										    	<select>
+											      <option value="" selected>Primary A</option>
+											      <option value="1">Option 1</option>
+											      <option value="2">Option 2</option>
+											      <option value="3">Option 3</option>
+											    </select>
+											    <label>Class</label>
+											</div>
+
+											<div class="input-field col s6">
+									          <input value="12" id="class_number" type="text" class="validate">
+				      						  <label class="active" for="class_number">Class no.</label>
+									        </div>
+									    </div>
+
+									    <div class="row">
+									    	<div class="input-field col s6">
+									          <input value="Liam 12" id="user_id" type="text" class="validate">
+				      						  <label class="active" for="user_id">User id</label>
+									        </div>
+
+									    	<div class="input-field col s6">
+									          <input value="Email id" id="email_id" type="text" class="validate">
+				      						  <label class="active" for="email_id">Liam@school.com</label>
+									        </div>
+									    </div>
+										</div>
+						          	</td>
+		          				</tr>
+		          				<tr>
+		          					<td colspan="2">
+		          						<div class="row">
+										    <div class="input-field col s6">
+										      <input value="56" id="height" type="text" class="validate">
+										      <label class="active" for="height">Height</label>
+										    </div>
+
+										  <div class="input-field col s6">
+										      <input value="58" id="weight" type="text" class="validate">
+										      <label class="active" for="weight">Weight</label>
+										    </div>
+										</div>
+										<div class="row">
+										  <div class="input-field col s6">
+										      <input value="22" id="body_mass_index" type="text" class="validate">
+										      <label class="active" for="body_mass_index">Body Mass Index</label>
+										    </div>
+										</div>
+		          					</td>
+
+		          					<td colspan="3">
+		          						<div class="row">
+		          							<div class="input-field col s6">
+		          								<input type="text" class="datepicker" placeholder="Birthday">
+		          								<span><i class="material-icons dp48">date_range</i> <strong>5 years</strong></span>
+		          							</div>
+		          						</div>
+		          						<div class="row">
+		          							<div class="input-field col s6">
+										      <input value="Male" id="gender" type="text" class="validate">
+										      <label class="active" for="gender">Male</label>
+										    </div>
+										</div>
+		          						</div>
+		          					</td>
+		          				</tr>
+
+		          				<tr>
+		          					<td colspan="5">
+		          						<p>
+		          							<strong>Parent login</strong>
+		          						</p>
+		          						<div class="row">
+		          							<div class="input-field col s5">
+										      <input value="paren.liam12@gmail.com" id="parent_email" type="email" class="validate">
+										      <label class="active" for="parent_email">Email id</label>
+										    </div>
+
+										    <div class="input-field col s5">
+										      <input value="Liam@12" id="parent_password" type="email" class="validate">
+										      <label class="active" for="parent_password">Password</label>
+										    </div>
+
+										    <div class="input-field col s2">
+										      <a class="waves-effect waves-light btn">Save</a>
+										    </div>
+		          						</div>
+		          					</td>
+		          				</tr>
+		          			</table>
+		          		</div>
+		          	</td>
+		          	
+		          </tr>
+		          <tr>
+		            <td><i class="material-icons left dp48">account_circle</i> Liam Little</td>
+		            <td>1023</td>
+		            <td>1023</td>
+		            <td>1023</td>
+		            <td>64</td>
+		          </tr>
+		          <tr>
+		            <td><i class="material-icons left dp48">account_circle</i> Liam Little</td>
+		            <td>1023</td>
+		            <td>1023</td>
+		            <td>1023</td>
+		            <td>64</td>
+		          </tr>
+		        </tbody>
+		      </table>
+		      </div>
+		    </div>
+
+		    <div class="row valign-wrapper">
+		    	<ul class="pagination">
+				    <li><a href="#!"><i class="material-icons left">chevron_left</i>Previous<br/> Class</a></li>
+				    <li><a href="#!"><i class="material-icons right">chevron_right</i> Next<br/>Class</a></li>
+				</ul>
+		    </div>
+		</section>
+
+	</div>
+		<footer>
+			<div class="row">
+		      <div class="col s6">
+		      	<ul>
+		      		<a href="javascript:;" title="About PAT">About PAT</a>
+		      		<a href="javascript:;" title="Support">Support</a>
+		      		<a href="javascript:;" title="Contact Us">Contact Us</a>
+		      	</ul>
+		      </div>
+		      <div class="col s6">
+		      	<img src="/" alt="School Partner Logo" />	
+		      </div>
+		       <div class="col s12 copyright">copyright | Disclaimer | Privacy Policy</div>
+		    </div>
+		</footer>
+
+	      <!--JavaScript at end of body for optimized loading-->
+	      <script type="text/javascript" src="_assets/js/jquery-3.4.1.min.js"></script>
+	      <script type="text/javascript" src="_assets/js/materialize.min.js"></script>
+	      <script type="text/javascript" src="_assets/js/pat.js"></script>
+
+</body>
+
+</html>
